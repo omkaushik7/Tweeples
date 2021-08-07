@@ -5,7 +5,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 header{
     display: flex;
 }
@@ -44,18 +43,21 @@ header h1{
     width: max-content;
     padding: 10px;
     border-radius: 43px 54px 0px;
-    background: #eedcdc;
+    /* background: #eedcdc; */
+    box-shadow: inset -5px -5px 8px 0px #ee251052, inset 5px 5px 8px 0px rgba(189, 39, 39, 0.32);
 }
 
 .developers{
-    background: #eedcdc;
+    /* background: #eedcdc; */
     border-radius: 10px;
     padding: 15px 25px;
+    box-shadow: inset -5px -5px 8px 0px #ee251052, inset 5px 5px 8px 0px rgba(189, 39, 39, 0.32);
 }
 .designers{
-    background: #eedcdc;
+    /* background: #eedcdc; */
     border-radius: 10px;
     padding: 15px 25px;
+    box-shadow: inset -5px -5px 8px 0px #ee251052, inset 5px 5px 8px 0px rgba(189, 39, 39, 0.32);
 }
 .flex{
     display: flex;
@@ -78,14 +80,10 @@ header h1{
     height: 280px;
     margin: 0 30px 30px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px 0 rgba(37,44,97,0.15);
-    /* box-shadow: 2px 7px 19px rgb(181, 185, 217); */
+    box-shadow: inset -5px -5px 8px 0px #914c4552, inset 5px 5px 8px 0px rgba(115, 221, 127, 0.32);
 }
 
-.card:hover{
-    transition: all 0.2s ease-out;
-    background-color: rgb(227, 255, 238);
-}
+
 
 .dp{
     width: 80px;
@@ -132,34 +130,53 @@ a{
     text-decoration: none;
     color: black;
 }
-.support{
-    text-align: end;
-    margin: 0 20px;
-    font-size: 14px;
-}
 .footer{
-    text-align: center;
-    margin: 70px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 110px 89px 24px;
 }
+.fueler{
+    display: flex;
+    border-radius: 8px;
+    width: 157px;
+    background: #fd0;
+    text-align: center;
+    padding: 14px 0;
+    height: 17px;
+}
+.fueler-logo{
+    padding: 0 0 0 10px;
+}
+.fueler p{
+    font-size: 12px;
+    padding: 1px 0 0 8px;
+}
+.buymeacoffee{
+    width: 160px;
+}
+
 #view{
+    display: flex;
     border: none;
     font-size: 25px;
     color: #FFF;
-    float: right;
+    margin: auto;
     cursor: pointer;
-    padding: 0px 5px;
-    border-radius: 9px;
-    background: #5e98a6;
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: inset -5px -5px 8px 0px #914c4552, inset 5px 5px 8px 0px rgba(115, 221, 127, 0.32);
 }
 #view_{
+    display: flex;
     border: none;
     font-size: 25px;
     color: #FFF;
-    float: right;
+    margin: auto;
     cursor: pointer;
-    padding: 0px 5px;
-    border-radius: 9px;
-    background: #5e98a6;
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: inset -5px -5px 8px 0px #914c4552, inset 5px 5px 8px 0px rgba(115, 221, 127, 0.32);
 }
 #more{
     display: none;
@@ -167,6 +184,8 @@ a{
 #more_{
     display: none;
 }
+
+
 
 
 
@@ -196,8 +215,8 @@ a{
     .p{
         font-size: 18px;
         padding: 10px;
-    }    
-    .support{
-        text-align: center;
-    }
+    }  
+    .margin{
+        margin: 12px 0;
+    }  
 }
