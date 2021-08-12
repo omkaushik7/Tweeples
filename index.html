@@ -9,11 +9,11 @@
     <script src="https://kit.fontawesome.com/399ce3e909.js" crossorigin="anonymous"></script>
     <script src="/tweeples.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>Tweeples</title>
 </head>
 
-<body>
+<body class="scroller">
     <header>
         <h1>Tweeples</h1>
     </header>
@@ -22,14 +22,14 @@
         <h2>Discover Inspiring Individuals <br> To Follow On Twitter</h2>
     </div>
 
-    <section class="category_">
+    <div class="category_">
         <a href="#developers">
-            <div class="developers">Developers</div>
+            <div class="developers" >Developers</div>
         </a>
         <a href="#designers">
             <div class="designers">Designers</div>
         </a>
-    </section>
+    </div>
     <!-- //////////////////////////////////////////////////// -->
 
 
@@ -41,29 +41,49 @@
             <div class="card">
                 <div class="top">
                     <div class="dp">
-                        <img src="/Vlad Pasca.jpg"
-                            alt="Vlad Pasca">
+                        <img src="/Csaba Kissi.jpg" alt="dp">
                     </div>
                 </div>
                 <div class="info">
                     <div class="name">
-                        <p>Vlad Pasca</p>
+                        <p>Csaba Kissi</p>
                     </div>
                     <div class="category">
-                        <p>Front-end</p>
+                        <p>Full-Stack</p>
                     </div>
                     <div class="work">Working On</div>
-                    <div class="working-on"><a href="">Working On Tweeple</a></div>
+                    <div class="working-on"><a href="https://twide.sk/" target="blank">TWIDESK</a></div>
                     <div class="twitter">
-                        <a href="https://twitter.com/VladPasca5"><i class="fab fa-twitter fa-1x"></i></a>
+                        <a href="https://twitter.com/csaba_kissi"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="top">
                     <div class="dp">
-                        <img src="/Luc Constantin.jpg"
-                            alt="Luc Constantin">
+                        <img src="/Jack Forge.jpg" alt="Vlad Pasca">
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="name">
+                        <p>Jack Forge</p>
+                    </div>
+                    <div class="category">
+                        <p>Front-end</p>
+                    </div>
+                    <div class="work">Working On</div>
+                    <div class="working-on"><a href="thejackforge.com"
+                            target="_blank">Website</a></div>
+                    <div class="twitter">
+                        <a href="https://twitter.com/TheJackForge" target="_blank"><i
+                                class="fab fa-twitter fa-1x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <div class="dp">
+                        <img src="/Luc Constantin.jpg" alt="Luc Constantin">
                     </div>
                 </div>
                 <div class="info">
@@ -74,17 +94,16 @@
                         <p>Front-end</p>
                     </div>
                     <div class="work">Working On</div>
-                    <div class="working-on"><a href="">Working On Tweeple</a></div>
+                    <div class="working-on"><a href="https://blog.accolades.dev/" target="blank">Blog</a></div>
                     <div class="twitter">
-                        <a href="https://twitter.com/accolades_dev"><i class="fab fa-twitter fa-1x"></i></a>
+                        <a href="https://twitter.com/accolades_dev" target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="top">
                     <div class="dp">
-                        <img src="/Pratham.jpg"
-                            alt="Pratham">
+                        <img src="/Pratham.jpg" alt="Pratham">
                     </div>
                 </div>
                 <div class="info">
@@ -95,39 +114,80 @@
                         <p>Front-end</p>
                     </div>
                     <div class="work">Working On</div>
-                    <div class="working-on"><a href="">Working On Tweeple</a></div>
+                    <div class="working-on"><a href="https://rapidapi.com/"target="blank">RapidAPI</a></div>
                     <div class="twitter">
-                        <a href="https://twitter.com/Prathkum"><i class="fab fa-twitter fa-1x"></i></a>
+                        <a href="https://twitter.com/Prathkum"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="top">
-                    <div class="dp">
-                        <img src="/George Moller.jpg"
-                            alt="dp">
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="name">
-                        <p>George Moller</p>
-                    </div>
-                    <div class="category">
-                        <p>Front-end</p>
-                    </div>
-                    <div class="work">Working On</div>
-                    <div class="working-on"><a href="">Working On Tweeple</a></div>
-                    <div class="twitter">
-                        <a href="https://twitter.com/_georgemoller"><i class="fab fa-twitter fa-1x"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex" id="more">
+            
+            <span class="flex" id="more">
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Abhishek.jpg"
-                                alt="dp">
+                            <img src="/Vlad Pasca.jpg" alt="Vlad Pasca">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Vlad Pasca</p>
+                        </div>
+                        <div class="category">
+                            <p>Front-end</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://tibomaker.gumroad.com/l/tweetbutler"
+                                target="_blank">E-book</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/VladPasca5" target="_blank"><i
+                                    class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Wes Bos.jpg" alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Wes Bos</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://wesbos.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/wesbos"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/George Moller.jpg" alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>George Moller</p>
+                        </div>
+                        <div class="category">
+                            <p>Front-end</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href=""target="blank">Working On Tweeple</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/_georgemoller"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Abhishek.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -138,17 +198,16 @@
                             <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a target="blank" href="https://fueler.io">Fueler</a></div>
+                        <div class="working-on"><a target="blank" href="https://fueler.io">Fueler.io</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/designerSaha"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/designerSaha"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Savio Martin.jpg"
-                                alt="dp">
+                            <img src="/Savio Martin.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -159,17 +218,16 @@
                             <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://saviomartin.com/"target="blank">Blog</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/saviomartin7"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/saviomartin7"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Insha.jpg"
-                                alt="dp">
+                            <img src="//Insha.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -180,17 +238,16 @@
                             <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://hashnode.com/@Inshaweb"target="blank">Blog</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/Insharamin"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/Insharamin"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Jack Domleo.jpg"
-                                alt="dp">
+                            <img src="//Jack Domleo.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -201,101 +258,100 @@
                             <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://jackdomleo.dev/"target="blank">Website</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/jackdomleo7"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/jackdomleo7"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="https://pbs.twimg.com/profile_images/1056708700948303872/e1gq51Tn_400x400.jpg"
+                            <img src="//Akshay Saini.jpg"
                                 alt="dp">
                         </div>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <p>Name</p>
+                            <p>Akshay Saini</p>
                         </div>
                         <div class="category">
-                            <p>Front-end Developer</p>
+                            <p>Full-Stack</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://www.uber.com"target="blank">Uber</a></div>
                         <div class="twitter">
-                            <a href=""><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/akshaymarch7"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="https://pbs.twimg.com/profile_images/1056708700948303872/e1gq51Tn_400x400.jpg"
+                            <img src="/Eddy Vinck.jpg"
                                 alt="dp">
                         </div>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <p>Name</p>
+                            <p>Eddy Vinck</p>
                         </div>
                         <div class="category">
-                            <p>Front-end Developer</p>
+                            <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://www.eddyvinck.com/"target="blank">Website</a></div>
                         <div class="twitter">
-                            <a href=""><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/shrutibalasa"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="https://pbs.twimg.com/profile_images/1056708700948303872/e1gq51Tn_400x400.jpg"
+                            <img src="/Devesh.jpg"
                                 alt="dp">
                         </div>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <p>Name</p>
+                            <p>Devesh</p>
                         </div>
                         <div class="category">
-                            <p>Front-end Developer</p>
+                            <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://deveshb.co/"target="blank">Website</a></div>
                         <div class="twitter">
-                            <a href=""><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/Deveshb15"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="https://pbs.twimg.com/profile_images/1056708700948303872/e1gq51Tn_400x400.jpg"
+                            <img src="/Well Paid Geek.jpg"
                                 alt="dp">
                         </div>
                     </div>
                     <div class="info">
                         <div class="name">
-                            <p>Name</p>
+                            <p>Well Paid Geek</p>
                         </div>
                         <div class="category">
-                            <p>Front-end Developer</p>
+                            <p>Front-end</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://wellpaidgeek.com/"target="blank">Website</a></div>
                         <div class="twitter">
-                            <a href=""><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/WellPaidGeek"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Aquib Jawed.jpg"
-                                alt="dp">
+                            <img src="/Aquib Jawed.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -306,38 +362,16 @@
                             <p>Full-Stack</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://fueler.io/"target="blank">Fueler.io</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/aquibj0"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/aquibj0"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Csaba Kissi.jpg"
-                                alt="dp">
-                        </div>
-                    </div>
-                    <div class="info">
-                        <div class="name">
-                            <p>Csaba Kissi</p>
-                        </div>
-                        <div class="category">
-                            <p>Full-Stack</p>
-                        </div>
-                        <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
-                        <div class="twitter">
-                            <a href="https://twitter.com/csaba_kissi"><i class="fab fa-twitter fa-1x"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="top">
-                        <div class="dp">
-                            <img src="/Marc Backes.jpg"
-                                alt="dp">
+                            <img src="/Marc Backes.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -348,17 +382,16 @@
                             <p>Full-Stack</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://marc.dev/"target="blank">Website</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/themarcba"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/themarcba"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="top">
                         <div class="dp">
-                            <img src="/Brad Traversy.jpg"
-                                alt="dp">
+                            <img src="/Brad Traversy.jpg" alt="dp">
                         </div>
                     </div>
                     <div class="info">
@@ -369,20 +402,421 @@
                             <p>Full-Stack</p>
                         </div>
                         <div class="work">Working On</div>
-                        <div class="working-on"><a href="">Working On Tweeple</a></div>
+                        <div class="working-on"><a href="https://www.traversymedia.com/"target="blank">Website</a></div>
                         <div class="twitter">
-                            <a href="https://twitter.com/traversymedia"><i class="fab fa-twitter fa-1x"></i></a>
+                            <a href="https://twitter.com/traversymedia"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Edidiong Asikpo.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Edidiong Asikpo</p>
+                        </div>
+                        <div class="category">
+                            <p>Advocate</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://edidiongasikpo.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/Didicodes"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Angie Jones.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Angie Jones</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://angiejones.tech/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/techgirl1908"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Ankur.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Ankur</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://theankurtyagi.com/ebook/"target="blank">E-book</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/TheAnkurTyagi"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Sarthak.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Sarthak</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://www.growex.app/"target="blank">GROWEX</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/Sarthaksavvy"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Kyle Prinsloo.png"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Kyle Prinsloo</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://studywebdevelopment.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/study_web_dev"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Oliver Jumpertz.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Oliver Jumpertz</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://oliverjumpertz.dev/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/oliverjumpertz"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Francesco Ciulla.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Francesco Ciulla</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://www.youtube.com/FrancescoCiulla/"target="blank">youtube</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/FrancescoCiull4"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Nat Miletic.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Nat Miletic</p>
+                        </div>
+                        <div class="category">
+                            <p>Front-end Developer</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://cliowebsites.com/"target="blank">Working On Tweeple</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/natmiletic"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Kass.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Kass</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://home.com/"target="blank">home</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/KassandraSanch"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Florin Pop.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Florin Pop</p>
+                        </div>
+                        <div class="category">
+                            <p>Front-end</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://www.florin-pop.com/"target="blank">Website</div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/florinpop1705"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Arvid Kahl.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Arvid Kahl</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://thebootstrappedfounder.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/arvidkahl"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Marko Denic.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Marko Denic</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://markodenic.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/denicmarko"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Favor.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Favor</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-Stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://heyonuoha.gumroad.com/l/EWqNH"target="blank">E-book</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/heyOnuoha"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Catalin Pit.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Catalin Pit</p>
+                        </div>
+                        <div class="category">
+                            <p>Advocate</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://hashnode.com/"target="blank">Hashnode</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/catalinmpit"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Danny Thompson.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Danny Thompson</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://dthompsondev.gumroad.com/l/KFkhUc?_ga=2.141663794.1655322932.1628653217-94496943.1617904661"target="blank">E-book</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/DThompsonDev"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Raf Rasenberg.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Raf Rasenberg</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-stack</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://rafrasenberg.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/rafrasenberg"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Annie.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Annie</p>
+                        </div>
+                        <div class="category">
+                            <p>Front-end</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://anniebombanie.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/anniebombanie_"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Simon Høiberg.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Simon Høiberg</p>
+                        </div>
+                        <div class="category">
+                            <p>Full-stack</p>
+                        </div>
+                        <div class="work">Co-Founder of</div>
+                        <div class="working-on"><a href="https://feedhive.io/"target="blank">FeedHive.io</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/SimonHoiberg"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/NICK BULL.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Nick Bull</p>
+                        </div>
+                        <div class="category">
+                            <p>Front-end</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://nickbulljs.com/"target="blank">Website</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/nickbulljs"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </span>
 
         </div>
 
         <button type="button" id="view" onclick="view()">view more</button>
 
     </section>
-<!-- /////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////// -->
     <div class="section" id="designers">
         <h3>Designers</h3>
     </div>
@@ -393,8 +827,7 @@
             <div class="card">
                 <div class="top">
                     <div class="dp">
-                        <img src="/Abhishek.jpg"
-                            alt="dp">
+                        <img src="/Abhishek.jpg" alt="dp">
                     </div>
                 </div>
                 <div class="info">
@@ -405,30 +838,30 @@
                         <p>Designer</p>
                     </div>
                     <div class="work">Working On</div>
-                    <div class="working-on"><a href="">Working On Tweeple</a></div>
+                    <div class="working-on"><a href="https:/fueler.io" target="blank">Fueler.io</a></div>
                     <div class="twitter">
-                        <a href="https://twitter.com/designerSaha"><i class="fab fa-twitter fa-1x"></i></a>
+                        <a href="https://twitter.com/designerSaha"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <div class="top">
                     <div class="dp">
-                        <img src="https://pbs.twimg.com/profile_images/1056708700948303872/e1gq51Tn_400x400.jpg"
+                        <img src="/Koustav Hazra.jpg"
                             alt="dp">
                     </div>
                 </div>
                 <div class="info">
                     <div class="name">
-                        <p>Name</p>
+                        <p>Koustav Hazra</p>
                     </div>
                     <div class="category">
                         <p>Designers</p>
                     </div>
                     <div class="work">Working On</div>
-                    <div class="working-on"><a href="">Working On Tweeple</a></div>
+                    <div class="working-on"><a href="https:/fueler.io" target="blank">Fueler.io</a></div>
                     <div class="twitter">
-                        <a href=""><i class="fab fa-twitter fa-1x"></i></a>
+                        <a href="https://twitter.com/KoustavHazra2" target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                     </div>
                 </div>
             </div>
@@ -493,6 +926,27 @@
                         <div class="working-on"><a href="">Working On Tweeple</a></div>
                         <div class="twitter">
                             <a href=""><i class="fab fa-twitter fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="dp">
+                            <img src="/Nat Miletic.jpg"
+                                alt="dp">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">
+                            <p>Nat Miletic</p>
+                        </div>
+                        <div class="category">
+                            <p>Designer</p>
+                        </div>
+                        <div class="work">Working On</div>
+                        <div class="working-on"><a href="https://cliowebsites.com/"target="blank">Working On Tweeple</a></div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/natmiletic"target="blank"><i class="fab fa-twitter fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
@@ -737,11 +1191,11 @@
     </section>
 
 
-        <footer class="footer">
+    <footer class="footer">
         <a href="http://fueler.io/om" class="margin">
             <div class="fueler">
                 <img src="https://fueler.io/images/fueler/main/fueler-icon.svg" alt="fueler-logo" class="fueler-logo">
-               <p>Find me on Fueler</p>
+                <p>Find me on Fueler</p>
             </div>
         </a>
         <div class="support">
@@ -750,6 +1204,7 @@
                     class="buymeacoffee margin"></a>
         </div>
     </footer>
+
 </body>
 
 </html>
